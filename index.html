@@ -34,7 +34,7 @@
 				<p>Верстка на HTML и CSS <br> Разработка сайтов под ключ</p>
 			</div>
 		</div>
-    <a href="#portfolio" class="main-down"><i class="icon-down"></i></a>
+    <a href="#portfolio" class="main-down slowly"><i class="icon-down"></i></a>
 	</div>
   
   <div class="portfolio" id="portfolio">
@@ -125,7 +125,7 @@
           //узнаем высоту от начала страницы до блока на который ссылается якорь
             top = $(id).offset().top;
           //анимируем переходна расстоянии - top за 800 мс
-          $('body,html').animate({scrollTop: top}, 1500);
+          $('body,html').animate({scrollTop: top}, 800);
         });
       });
     </script>
